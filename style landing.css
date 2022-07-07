@@ -33,14 +33,19 @@ font-weight: 900;
 font-size: 15px;}
 footer{display: grid;width: 1200px;
 grid-template-columns: 5 (1fr);
-grid-auto-rows: minmax(50px, auto);
+grid-auto-rows: minmax(200px, auto);
 grid-template-areas: "time info staff pic advice";
-background-color: rgb(246, 236, 224);}
+background-color: rgb(246, 236, 224);align-items: center;
+justify-items: center;}
 .time{grid-area: time;}
 .info{grid grid-area: info;}
 .staff{grid-area: staff;}
-.pic{grid-area: pic;}
+.pic{grid-area: pic;
+position: absolute;}
 .advice{grid-area: advice;}
-.img{width: 200px;
-position: absolute;
-right: 400px;}
+.img{width: 250px;
+position: relative;
+left: 230px;
+height: 230px;
+bottom: 15px;}
+h4{line-height: 0px; color: rgb(37, 39, 68);}
