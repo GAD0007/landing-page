@@ -49,8 +49,13 @@ div.footer-2{display: flex; width: 500px;
 background-color: rgb(17, 17, 36);
 position: absolute;
  left: 800px;
-top:578px;
+top:630px;
 padding:;
 height: 200px;}
 .advice{color: white;
 padding: 25px 15px;}
+.btn{padding-top: 17px;}
+.search{ font-size: 17px;}
+.tool{font-size: 20px;}
+.logo{color: red; font-size: 30px;}
+.logo-2{color: green; font-size: 30px;}
